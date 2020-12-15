@@ -1,3 +1,7 @@
+body {
+  background: rgb(210,184,212);
+  background: linear-gradient(90deg, rgba(210,184,212,1) 0%, rgba(180,177,227,1) 42%, rgba(148,183,232,1) 100%, rgba(0,212,255,1) 100%);
+}
 .App {
   text-align: center;
 }
@@ -22,6 +26,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 5rem;
+  color: rgb(92, 96, 97);
 }
 
 .App-link {
